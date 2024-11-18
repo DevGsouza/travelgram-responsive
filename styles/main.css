@@ -1,0 +1,40 @@
+main {
+  padding-inline: 3.2rem;
+  margin-inline: auto;
+  max-width: 128rem;
+  margin-block: 4rem;
+  display: flex;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+}
+
+main img {
+  width: 28.6rem;
+  height: 28.6rem;
+  object-fit: cover;
+}
+
+@media (width < 45rem) {
+  main {
+    width: 100%;
+    max-width: 45rem;
+    padding-inline: 1.6rem;
+  }
+
+  .images {
+    display: grid;
+    gap: 1.6rem;
+    justify-content: center;
+    margin-inline: auto;
+  }
+
+  main img {
+  width: 32.8rem;
+  max-width: 45rem;
+ }
+
+}

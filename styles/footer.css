@@ -1,0 +1,30 @@
+footer {
+  font: var(--paragraph-regular);
+
+  display: flex;
+  justify-content: space-between;
+
+  padding-block: 2.4rem;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 2.8rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+@media (width < 45rem) {
+  footer {
+    flex-direction: column;
+    gap: 1.6rem;
+    text-align: center;
+  }
+
+  footer ul {
+    margin-inline: auto;
+  }
+}

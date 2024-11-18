@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-inline: 3.2rem;
+  margin-inline: auto;
+  max-width: 128rem;
+
+  padding-block: 2rem;
+}
+
+nav ul {
+  display: flex;
+
+  list-style: none;
+
+  gap: 2.4rem;
+  align-items: center;
+}
+
+nav ul li a {
+  font: var(--paragraph-big);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color:  var(--brand-color);
+  text-decoration: underline;
+}
+
+nav ul li:last-child img {
+  width: 4rem;
+  height: 4rem;
+
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (width < 45rem) {
+  nav {
+    padding-inline: 1.6rem;
+  }
+}
+
+
