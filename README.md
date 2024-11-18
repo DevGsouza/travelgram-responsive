@@ -1,7 +1,7 @@
 <strong><h1 align="center">Travelgram</h1></strong>
 
 <p align="center">
-  <img alt="" src="travelgram.png" width="100%">
+  <img alt="" src="travelgram-responsive.png" width="100%">
 </p>
 
 ## 🚀 Descrição
